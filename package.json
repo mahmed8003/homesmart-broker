@@ -1,0 +1,36 @@
+{
+	"name": "homesmart-broker",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "tape test/*.js test/*/*.js | faucet",
+		"coverage": "istanbul cover tape test/*.js test/*/*.js",
+		"coveralls": "cat coverage/lcov.info | coveralls"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"aedes": "^0.25.3",
+		"aedes-persistence-mongodb": "^3.1.1",
+		"async-exit-hook": "^1.1.2",
+		"bluebird": "^3.5.0",
+		"fast-json-parse": "^1.0.2",
+		"fast-safe-stringify": "^1.1.13",
+		"ioredis": "^2.5.0",
+		"joi": "^10.4.1",
+		"jsonwebtoken": "^7.3.0",
+		"lodash": "^4.17.4",
+		"mongodb": "^2.2.25",
+		"mqemitter-redis": "^2.0.0",
+		"needle": "^1.6.0",
+		"pino": "^4.2.4",
+		"randomstring": "^1.1.5"
+	},
+	"devDependencies": {
+		"coveralls": "^2.13.0",
+		"faucet": "0.0.1",
+		"istanbul": "^0.4.5",
+		"tape": "^4.6.3"
+	}
+}
