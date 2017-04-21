@@ -1,5 +1,5 @@
 # Home Smart MQTT Broker
-Broker that mantain connections between smart devices, Mobile Apps and browsers using MQTT protocol. It includes
+Broker that maintains connections between smart devices, Mobile Apps and browsers using MQTT protocol. It includes
 - [Aedes MQTT broker](https://github.com/mcollina/aedes)
 - [Redis-powered MQEmitter](https://github.com/mcollina/mqemitter-redis)
 - [MongoDB persistence for Aedes](https://github.com/mcollina/aedes-persistence-mongodb)
@@ -8,9 +8,9 @@ Broker that mantain connections between smart devices, Mobile Apps and browsers 
   - [Yarn](https://yarnpkg.com/) Package Manager
 
 ### Installation
-Requires [Node.js](https://nodejs.org/) v6+ to run.
-Requires [MongoDB](https://www.mongodb.com/) for storing mqtt messages, user commands, devices responses and devices notifications.
-Requires [Redis](https://redis.io/) for messaging, pub/sub.
+- Requires [Node.js](https://nodejs.org/) v6+ to run.
+- Requires [MongoDB](https://www.mongodb.com/) for storing mqtt messages, user commands, devices responses and devices notifications.
+- Requires [Redis](https://redis.io/) for messaging, pub/sub.
 
 Install the dependencies and devDependencies and start the server.
 
